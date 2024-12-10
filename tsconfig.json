@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                       // Target modern JavaScript
+      "module": "commonjs",                  // Use CommonJS for Node.js
+      "strict": true,                        // Enable all strict type-checking options
+      "esModuleInterop": true,               // Ensure compatibility with CommonJS modules
+      "skipLibCheck": true,                  // Skip type checking of all declaration files
+      "outDir": "./dist",                    // Output directory for compiled files
+      "rootDir": "./src",                  // Root directory of source files
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
