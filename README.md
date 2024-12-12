@@ -14,17 +14,13 @@ npm install
 
 ## Scripts
 
-- `npm build`: Build the project for production using Webpack.
-- `npm start`: Start the server from the production build.
-- `npm dev`: Start the development server with live reloading.
+- `npm run dev`: Start the development server with live reloading.
+or 
+- `npm run build`: Build the server.
+- `npm run start`: Start the server
 
-## Development Tools
-
-- `webpack-watch`: Runs Webpack in watch mode.
-- `nodemon`: Watches for file changes and restarts the server.
 
 ## Dependencies
-
 This project uses the following major dependencies:
 - Express
 - JSON Web Token (JWT)
